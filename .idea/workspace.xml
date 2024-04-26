@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="aiogram bot">
-      <change afterPath="$PROJECT_DIR$/ChatBot/giga_chat/auth_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatBot/giga_chat/chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatBot/giga_chat/prompt/system.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatBot/giga_chat/prompt/template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatBot/telegram/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatBot/telegram/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bot/bot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bot/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GigaChat/auth_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GigaChat/chat.py" beforeDir="false" />
-    </list>
+    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="+ prompt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,25 +29,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bot (1).executor": "Run",
-    "Python.bot.executor": "Run",
-    "Python.chat (1).executor": "Run",
-    "Python.chat.executor": "Run",
-    "Python.chat_test.executor": "Run",
-    "Python.giga_data.executor": "Run",
-    "Python.template.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.giga_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.template.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.bot (1)">
     <configuration name="bot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTeleBot" />
@@ -221,11 +209,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713894455031</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ prompt">
+      <option name="closed" value="true" />
+      <created>1714138827522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714138827522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aiogram bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="aiogram bot" />
+    <MESSAGE value="+ prompt" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ prompt" />
   </component>
 </project>
