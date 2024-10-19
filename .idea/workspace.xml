@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="+ prompt" />
+    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="+ prompt + requirements">
+      <change afterPath="$PROJECT_DIR$/consts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ТИУ Абитуриенты 2019-2024 Model.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/random_forrest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/save_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBot/giga_chat/auth_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBot/giga_chat/chat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBot/giga_chat/prompt/system.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBot/giga_chat/prompt/template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBot/telegram/bot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBot/telegram/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,26 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.bot (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.giga_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.template.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bot (1).executor": "Run",
+    "Python.bot.executor": "Run",
+    "Python.chat (1).executor": "Run",
+    "Python.chat.executor": "Run",
+    "Python.chat_test.executor": "Run",
+    "Python.giga_data.executor": "Run",
+    "Python.load.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.model.executor": "Run",
+    "Python.template.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/andre/TyuiuProjectParser/TestTeleBot/datasets"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.bot (1)">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\TyuiuProjectParser\TestTeleBot\datasets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\TyuiuProjectParser\TestTeleBot\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="bot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTeleBot" />
       <option name="ENV_FILES" value="" />
@@ -71,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTeleBot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bot/bot.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\andre\TyuiuProjectParser\TestTeleBot\dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chat (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTeleBot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChatBot/giga_chat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ChatBot/giga_chat/chat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="giga_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="random_forrest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTeleBot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GigaChat/prompt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GigaChat/prompt/giga_data.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\random_forrest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,18 +192,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.random_forrest" />
+        <item itemvalue="Python.dataset" />
         <item itemvalue="Python.bot (1)" />
-        <item itemvalue="Python.chat (1)" />
         <item itemvalue="Python.template" />
-        <item itemvalue="Python.giga_data" />
-        <item itemvalue="Python.bot" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -217,12 +248,29 @@
       <option name="project" value="LOCAL" />
       <updated>1714138827522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+ prompt + requirements">
+      <option name="closed" value="true" />
+      <created>1714148766248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714148766248</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+ prompt + requirements">
+      <option name="closed" value="true" />
+      <created>1714148835404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714148835404</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aiogram bot" />
     <MESSAGE value="+ prompt" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ prompt" />
+    <MESSAGE value="+ prompt + requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ prompt + requirements" />
   </component>
 </project>
