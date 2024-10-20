@@ -15,6 +15,8 @@ class CSVLoader:
     @classmethod
     def load_csv(cls) -> DataFrame:
         dataframe = pd.read_csv(filepath_or_buffer=cls.file_path)
+        print(dataframe['Сдан оригинал'].value_counts())
+        print(dataframe['Приказ о зачислении'].value_counts())
         return dataframe
 
 
@@ -79,4 +81,5 @@ class Dataset(Preprocessing):
             inputs=x,
             outputs=y
         )
+        print(x_train.shape)
         return x_train, y_train, x_test, y_test
