@@ -61,3 +61,4 @@ class SaveMetrics:
         )
         dataframe.to_csv(fr"{MODEL_INFO_PATH}\classification_report.csv")
         logger.info("Classification report saves successfully...")
+
