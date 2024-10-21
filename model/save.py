@@ -4,7 +4,7 @@ import pandas as pd
 
 from sklearn.ensemble import RandomForestClassifier
 
-from consts import MODEL_INFO_PATH
+from consts import MODEL_INFO_PATH, TRAINED_MODEL_PATH
 
 from typing import Any
 
@@ -13,7 +13,7 @@ from loguru import logger
 
 class SaveModel:
     COMPRESS: int = 9
-    FILENAME: str = 'random_forrest_model.joblib'
+    FILENAME: str = TRAINED_MODEL_PATH
 
     def __init__(self, model: RandomForestClassifier) -> None:
         self.model = model

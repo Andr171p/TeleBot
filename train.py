@@ -1,6 +1,6 @@
 from dataset import Dataset
 
-from model.binary_classifier import BinaryClassifierModel
+from model.classifier import BinaryClassifierModel
 from model.metrics import Metrics
 from model.plots import Plots
 from model.save import (

@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="Binary classifier model 1.0.0">
+    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="Binary classifier model 1.0.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/consts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/model.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/binary_classifier.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/info/accuracy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/model/info/accuracy.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/info/classification_report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/model/info/classification_report.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/info/confusion_matrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/model/info/confusion_matrix.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/info/roc_curve_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/model/info/roc_curve_plot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/save.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/save.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,34 +40,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.bot (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chat_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.giga_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.load.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.template.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/TyuiuProjectParser/TestTeleBot/datasets&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bot (1).executor": "Run",
+    "Python.bot.executor": "Run",
+    "Python.chat (1).executor": "Run",
+    "Python.chat.executor": "Run",
+    "Python.chat_test.executor": "Run",
+    "Python.giga_data.executor": "Run",
+    "Python.load.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.model.executor": "Run",
+    "Python.template.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/andre/TyuiuProjectParser/TestTeleBot/datasets"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\TyuiuProjectParser\TestTeleBot\datasets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\weights" />
       <recent name="C:\Users\andre\TyuiuProjectParser\TestTeleBot\model" />
     </key>
   </component>
@@ -85,6 +88,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ChatBot/telegram/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTeleBot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forrest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTeleBot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,29 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\random_forrest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTeleBot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChatBot/giga_chat/prompt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ChatBot/giga_chat/prompt/template.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,10 +187,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.random_forrest" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.binary_classifier" />
         <item itemvalue="Python.dataset" />
         <item itemvalue="Python.bot (1)" />
-        <item itemvalue="Python.template" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +274,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729323736985</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Binary classifier model 1.0.1">
+      <option name="closed" value="true" />
+      <created>1729420130567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729420130567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Binary classifier model 1.0.2">
+      <option name="closed" value="true" />
+      <created>1729420181407</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729420181407</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Binary classifier model 1.0.3">
+      <option name="closed" value="true" />
+      <created>1729519861177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729519861177</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -280,6 +307,9 @@
     <MESSAGE value="+ prompt + requirements" />
     <MESSAGE value="Binary classifier model" />
     <MESSAGE value="Binary classifier model 1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary classifier model 1.0.0" />
+    <MESSAGE value="Binary classifier model 1.0.1" />
+    <MESSAGE value="Binary classifier model 1.0.2" />
+    <MESSAGE value="Binary classifier model 1.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary classifier model 1.0.3" />
   </component>
 </project>
