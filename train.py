@@ -1,9 +1,9 @@
 from dataset import Dataset
 
-from model.random_forrest import RandomForrest
+from model.binary_classifier import BinaryClassifierModel
 from model.metrics import Metrics
 from model.plots import Plots
-from model.save_model import (
+from model.save import (
     SaveModel,
     SaveMetrics
 )
@@ -14,9 +14,9 @@ from typing import Any
 x_train, y_train, x_test, y_test = Dataset().dataset()
 
 
-def train_model() -> RandomForrest.model:
-    model = RandomForrest()
-    model.random_forrest_classifier()
+def train_model() -> BinaryClassifierModel.model:
+    model = BinaryClassifierModel()
+    model.binary_classifier()
     model.train(
         x_train=x_train,
         y_train=y_train
@@ -27,12 +27,12 @@ def train_model() -> RandomForrest.model:
     return model
 
 
-def predict_model(model: RandomForrest.model) -> Any:
+def predict_model(model: BinaryClassifierModel.model) -> Any:
     y_predict = model.predict(x_test=x_test)
     return y_predict
 
 
-def metrics(model: RandomForrest.model, y_predict: Any) -> None:
+def metrics(model: BinaryClassifierModel.model, y_predict: Any) -> None:
     model_metrics = Metrics(
         y_predict=y_predict,
         y_test=y_test
@@ -50,7 +50,7 @@ def metrics(model: RandomForrest.model, y_predict: Any) -> None:
     save_metrics.save_classification_report()
 
 
-def plots(model: RandomForrest.model) -> None:
+def plots(model: BinaryClassifierModel.model) -> None:
     model_plots = Plots(model=model)
     model_plots.roc_curve_plot(
         x_test=x_test, y_test=y_test

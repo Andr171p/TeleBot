@@ -35,8 +35,16 @@ class Preprocessing(CSVLoader):
             axis=1
         )
 
-    def clear_nan(self) -> DataFrame:
-        ...
+    def balance(self) -> None:
+        self.dataframe = self.dataframe.sample(frac=1)
+        df_true = self.dataframe[
+            self.dataframe['Приказ о зачислении'] == 1
+        ]
+        df_false = self.dataframe[
+            self.dataframe['Приказ о зачислении'] == 0
+        ].head(df_true.shape[0])
+        self.dataframe = pd.concat([df_true, df_false])
+        self.dataframe = self.dataframe.sample(frac=1)
 
     def inputs_outputs_split(self) -> tuple[DataFrame, DataFrame]:
         inputs = self.dataframe.drop('Приказ о зачислении', axis=1)
@@ -74,6 +82,7 @@ class Preprocessing(CSVLoader):
 class Dataset(Preprocessing):
     def dataset(self) -> tuple[DataFrame, DataFrame, DataFrame, DataFrame]:
         self.drop_columns()
+        # self.balance()
         x, y = self.inputs_outputs_split()
         x = self.one_hot_encoding(inputs=x)
         x = self.normalize(inputs=x)
