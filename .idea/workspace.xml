@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="Binary classifier model 1.0.3">
+    <list default="true" id="3f112f89-af22-44c7-809d-78b678ae78c1" name="Changes" comment="Binary classifier model 1.0.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/consts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/binary_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/info/accuracy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/model/info/accuracy.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/info/classification_report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/model/info/classification_report.csv" afterDir="false" />
@@ -40,30 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bot (1).executor": "Run",
-    "Python.bot.executor": "Run",
-    "Python.chat (1).executor": "Run",
-    "Python.chat.executor": "Run",
-    "Python.chat_test.executor": "Run",
-    "Python.giga_data.executor": "Run",
-    "Python.load.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.model.executor": "Run",
-    "Python.template.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/andre/TyuiuProjectParser/TestTeleBot/datasets"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bot (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.giga_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.template.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/TyuiuProjectParser/TestTeleBot/datasets&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\TyuiuProjectParser\TestTeleBot\datasets" />
@@ -188,7 +188,6 @@
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.binary_classifier" />
         <item itemvalue="Python.dataset" />
         <item itemvalue="Python.bot (1)" />
       </list>
@@ -298,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729519861177</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Binary classifier model 1.0.4">
+      <option name="closed" value="true" />
+      <created>1729550865857</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729550865857</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Binary classifier model 1.0.5">
+      <option name="closed" value="true" />
+      <created>1729551156887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729551156887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +325,8 @@
     <MESSAGE value="Binary classifier model 1.0.1" />
     <MESSAGE value="Binary classifier model 1.0.2" />
     <MESSAGE value="Binary classifier model 1.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary classifier model 1.0.3" />
+    <MESSAGE value="Binary classifier model 1.0.4" />
+    <MESSAGE value="Binary classifier model 1.0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary classifier model 1.0.5" />
   </component>
 </project>

@@ -32,7 +32,7 @@ def predict_model(model: BinaryClassifierModel.model) -> Any:
     return y_predict
 
 
-def metrics(model: BinaryClassifierModel.model, y_predict: Any) -> None:
+def metrics(y_predict: Any) -> None:
     model_metrics = Metrics(
         y_predict=y_predict,
         y_test=y_test

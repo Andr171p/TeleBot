@@ -6,5 +6,5 @@ DROP_COLUMNS = [
 
 MODEL_INFO_PATH = r"C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\info"
 
-TRAINED_MODEL_PATH = r"C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\weights\random_forrest_model.joblib"
+TRAINED_MODEL_PATH = r"C:\Users\andre\TyuiuProjectParser\TestTeleBot\model\weights\logistic_regression_model.joblib"
 

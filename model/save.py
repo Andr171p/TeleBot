@@ -2,8 +2,6 @@ import joblib
 
 import pandas as pd
 
-from sklearn.ensemble import RandomForestClassifier
-
 from consts import MODEL_INFO_PATH, TRAINED_MODEL_PATH
 
 from typing import Any
@@ -15,7 +13,7 @@ class SaveModel:
     COMPRESS: int = 9
     FILENAME: str = TRAINED_MODEL_PATH
 
-    def __init__(self, model: RandomForestClassifier) -> None:
+    def __init__(self, model: Any) -> None:
         self.model = model
 
     def save(self) -> None:
