@@ -82,7 +82,7 @@ class Preprocessing(CSVLoader):
 class Dataset(Preprocessing):
     def dataset(self) -> tuple[DataFrame, DataFrame, DataFrame, DataFrame]:
         self.drop_columns()
-        # self.balance()
+        self.balance()
         x, y = self.inputs_outputs_split()
         x = self.one_hot_encoding(inputs=x)
         x = self.normalize(inputs=x)

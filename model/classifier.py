@@ -1,6 +1,7 @@
 from pandas import DataFrame
 
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 
 from model.save import SaveModel
 
@@ -8,11 +9,11 @@ from typing import Any
 
 
 class BinaryClassifierModel:
-    classifier: LogisticRegression = None
+    classifier: RandomForestClassifier = None
 
     @classmethod
     def binary_classifier(cls) -> None:
-        cls.classifier = LogisticRegression()
+        cls.classifier = RandomForestClassifier()
 
     @classmethod
     def train(cls, x_train: DataFrame, y_train: DataFrame) -> None:
@@ -29,5 +30,5 @@ class BinaryClassifierModel:
         return y_predict
 
     @classmethod
-    def model(cls) -> LogisticRegression:
+    def model(cls) -> RandomForestClassifier:
         return cls.classifier
